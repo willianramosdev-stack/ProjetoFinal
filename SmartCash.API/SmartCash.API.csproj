@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartCash.Aplicacao\SmartCash.Aplicacao.csproj" />
+    <ProjectReference Include="..\SmartCash.Repositorio\SmartCash.Repositorio.csproj" />
+  </ItemGroup>
+
 </Project>

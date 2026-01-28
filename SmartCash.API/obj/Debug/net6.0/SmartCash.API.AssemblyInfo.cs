@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartCash.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c95cb6b274eb6a10eed7477920c892183c2f070a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartCash.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartCash.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
