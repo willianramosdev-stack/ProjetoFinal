@@ -1,0 +1,12 @@
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\bin\Debug\net6.0\SmartCash.Dominio.deps.json
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\bin\Debug\net6.0\SmartCash.Dominio.dll
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\bin\Debug\net6.0\SmartCash.Dominio.pdb
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\SmartCash.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\SmartCash.Dominio.AssemblyInfoInputs.cache
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\SmartCash.Dominio.AssemblyInfo.cs
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\SmartCash.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\SmartCash.Dominio.sourcelink.json
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\SmartCash.Dominio.dll
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\refint\SmartCash.Dominio.dll
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\SmartCash.Dominio.pdb
+C:\Users\Tarde\Downloads\TransferirAtualizado\TransferirAtualizado\Projetos\ProjetoFinal\SmartCash.Dominio\obj\Debug\net6.0\ref\SmartCash.Dominio.dll
