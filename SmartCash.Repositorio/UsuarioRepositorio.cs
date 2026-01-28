@@ -32,7 +32,7 @@ namespace SmartCash.Repositorio
 
         public async Task DesativarUsuarioAsync(Usuario usuario)
         {
-            _contexto.Usuarios.Remove(usuario);
+            _contexto.Usuarios.Update(usuario);
             await _contexto.SaveChangesAsync();
         }
 
