@@ -17,6 +17,7 @@ namespace SmartCash.Repositorio.Configuracoes
             builder.Property(nameof(Usuario.Email)).HasColumnName("Email").IsRequired(true).HasMaxLength(100);
             builder.Property(nameof(Usuario.Senha)).HasColumnName("Senha").IsRequired(true).HasMaxLength(100);
             builder.Property(nameof(Usuario.Ativo)).HasColumnName("Ativo").IsRequired(true);
+            builder.Property(nameof(Usuario.Salario)).HasColumnName("Salario").IsRequired(true).HasColumnType("decimal(18,2)");
         }
     }
 }

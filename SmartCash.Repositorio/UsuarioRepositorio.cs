@@ -36,6 +36,10 @@ namespace SmartCash.Repositorio
             await _contexto.SaveChangesAsync();
         }
 
+        public async Task<decimal> ObterSalarioUsuarioAsync(int usuarioId)
+        {
+            return await _contexto.Usuarios.Where(u => u.Id == usuarioId).Select(u => u.Salario).FirstOrDefaultAsync();
+        }
 
         public async Task<List<Usuario>> ObterTodosUsuariosAsync()
         {

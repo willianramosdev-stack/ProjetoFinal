@@ -12,8 +12,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<IUsuarioAplicacao, UsuarioAplicacao>();
-builder.Services.AddScoped<IEmpresaRepositorio, EmpresaRepositorio>();
-builder.Services.AddScoped<IEmpresaAplicacao, EmpresaAplicacao>();
 builder.Services.AddScoped<ITransacaoRepositorio, TransacaoRepositorio>();
 builder.Services.AddScoped<ITransacaoAplicacao, TransacaoAplicacao>();
 

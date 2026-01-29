@@ -10,7 +10,6 @@ namespace SmartCash.Repositorio.Contexto
     public class SmartCashContexto : DbContext
     {
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Empresa> Empresas { get; set; }
         public DbSet<Transacao> Transacoes { get; set; }
         private readonly DbContextOptions _options;
         public SmartCashContexto()

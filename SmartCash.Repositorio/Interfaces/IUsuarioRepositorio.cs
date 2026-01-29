@@ -13,6 +13,7 @@ namespace SmartCash.Repositorio.Interfaces
         Task<List<Usuario>> ObterTodosUsuariosAsync();
         Task AtualizarSenhaAsync(Usuario usuario);
         Task DesativarUsuarioAsync(Usuario usuario);
+        Task<decimal> ObterSalarioUsuarioAsync(int usuarioId);
 
     }
 }

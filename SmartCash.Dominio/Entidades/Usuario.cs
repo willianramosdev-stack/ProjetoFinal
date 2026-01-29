@@ -11,10 +11,8 @@ namespace SmartCash.Dominio.Entidades
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public bool Ativo { get; set; }
-        public Usuario()
-        {
-            Ativo = true;
-        }
+        public decimal Salario { get; set; }
+        public bool Ativo { get; set; } = true;
+        public List<Transacao> Transacoes { get; set; } = new();
     }
 }

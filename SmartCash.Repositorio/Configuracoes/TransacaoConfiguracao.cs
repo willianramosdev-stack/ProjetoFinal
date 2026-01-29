@@ -20,6 +20,10 @@ namespace SmartCash.Repositorio.Configuracoes
             builder.Property(nameof(Transacao.ValorUnitario)).HasColumnName("ValorUnitario").IsRequired(true);
             builder.Property(nameof(Transacao.ValorTotal)).HasColumnName("ValorTotal").IsRequired(true);
             builder.Property(nameof(Transacao.MetodoPagamento)).HasColumnName("MetodoPagamento").IsRequired(true).HasMaxLength(50);
+
+            builder.HasOne(t => t.Usuario).WithMany(u => u.Transacoes).HasForeignKey(t => t.UsuarioId);
         }
+
+        
     }
 }

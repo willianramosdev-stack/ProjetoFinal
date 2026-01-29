@@ -14,8 +14,11 @@ namespace SmartCash.Dominio.Entidades
         public DateTime DataTransacao { get; set; }
         public int Quantidade { get; set; }
         public decimal ValorUnitario { get; set; }
-        public decimal ValorTotal { get; set; }
         public MetodoPagamento MetodoPagamento { get; set; }
+        public int UsuarioId { get; set; }
+        public Usuario Usuario { get; set; } = null!;
+
+        public decimal ValorTotal => Quantidade * ValorUnitario;
 
         public Transacao()
         {
